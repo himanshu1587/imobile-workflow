@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Diui</string>
+    <string name="tasks">Tasks</string>
+    <string name="processes">Processes</string>
+    <string name="server_n_login">Server and login credentials</string>
+    <string name="server">Server</string>
+    <string name="user">User</string>
+    <string name="password">Password</string>
+    <string name="connect">Connect</string>
+    <string name="tasksProcesses_label">Description</string>
+    <string name="creation_label">Created</string>
+    <string name="save">Save</string>
+    <string name="remove">Remove</string>
+    <string name="server_saved">Server saved</string>
+    <string name="server_already_saved">Server already saved</string>
+    <string name="server_removed">Server removed</string>
+    <string name="server_not_found">Server not found</string>
+    <string name="couldnt_connect">Couldn\'t connect</string>
+    <string name="new_task">New task</string>
+    <string name="invalid_input">Invalid input: </string>
+    <string name="logout">Logout</string>
+    <string name="exit">Exit</string>
+    <string name="start">Start</string>
+    <string name="complete">Complete</string>
+    <string name="cancel">Cancel</string>
+    <string name="select_server">-Select saved server-</string>
+    <string name="invalid_date">Invalid date!</string>
+    <string name="cannot_start_process">The process can not be started. Please, report it to a technician.</string>
+    <string name="cannot_complete_task">The task can not be completed. Please, report it to a technician.</string>
+    <string name="cannot_open_form">The formulary can not be opened. Please, report it to a technician.</string>
+</resources>

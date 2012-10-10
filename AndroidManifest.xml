@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.blauadvisors.diui"
+	android:versionCode="1"
+	android:versionName="1.0"
+>
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="11" />
+	<uses-permission android:name="android.permission.INTERNET" />
+    <application
+    	android:icon="@drawable/icon"
+    	android:label="@string/app_name"
+   	>
+    	<!-- android:theme="@android:style/Theme.Holo"
+    	android:theme="@android:style/Theme.Holo.Light"
+    	    android:theme="@android:style/Theme.Light"
+    	android:theme="@android:style/Theme"
+    	
+    	-->
+        <activity
+        	android:name=".TasksProcesses_View"
+            android:label="@string/app_name"
+            android:configChanges="orientation"
+            android:launchMode="singleInstance" 
+		>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+		<activity
+			android:name=".Tasks_ListActivity"
+			android:label="@string/tasks"
+			android:windowSoftInputMode="adjustResize"
+		/>
+		<activity
+			android:name=".Processes_ListActivity"
+			android:label="@string/processes"
+            android:windowSoftInputMode="adjustResize"
+		/>
+		<activity
+			android:name=".TasksTab"
+            android:label="@string/tasks"
+		/>
+		<activity android:name=".TasksList" />
+		<activity
+			android:name=".XSD_TasksForm_Activity"
+			android:windowSoftInputMode="adjustResize"
+		/>
+		<activity
+			android:name=".XSD_ProcessesForm_Activity"
+			android:windowSoftInputMode="adjustPan"
+		/>
+		<activity
+			android:name="com.blauadvisors.diui.Canvas_TasksForm_Activity"
+			android:windowSoftInputMode="adjustResize"
+		/>
+		<activity
+			android:name="com.blauadvisors.diui.Canvas_ProcessesForm_Activity"
+			android:windowSoftInputMode="adjustResize"
+		/>
+		
+        <service
+        	android:name="com.blauadvisors.diui.IntalioWS"
+			android:exported="false"
+		/>
+    </application>
+</manifest>

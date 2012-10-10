@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Diui</string>
+    <string name="tasks">Tasques</string>
+    <string name="processes">Processos</string>
+    <string name="server_n_login">Servidor i credencials d\'accés</string>
+    <string name="server">Servidor</string>
+    <string name="user">Usuari</string>
+    <string name="password">Contrasenya</string>
+    <string name="connect">Connectar</string>
+    <string name="tasksProcesses_label">Descripció</string>
+    <string name="creation_label">Creat</string>
+    <string name="save">Guardar</string>
+    <string name="remove">Borrar</string>
+    <string name="server_saved">Servidor guardar</string>
+    <string name="server_already_saved">Servidor guardat préviament</string>
+    <string name="server_removed">Servidor borrat</string>
+    <string name="server_not_found">Servidor no trobat</string>
+    <string name="couldnt_connect">Impossible connectar</string>
+    <string name="new_task">Nova tasca</string>
+    <string name="invalid_input">Entrada invàlida: </string>
+    <string name="logout">Desconnectar</string>
+    <string name="exit">Sortir</string>
+    <string name="start">Iniciar</string>
+    <string name="complete">Completar</string>
+    <string name="cancel">Cancel·lar</string>
+    <string name="select_server">-Selecciona servidor guardat-</string>
+    <string name="invalid_date">Data invalida!</string>
+    <string name="cannot_start_process">El procés no es pot iniciar. Siusplau, consulta un tècnic.</string>
+    <string name="cannot_complete_task">La tasca no es pot completar. Siusplau, consulta un tècnic.</string>
+    <string name="cannot_open_form">No es pot obrir el formulari. Siuslpau, consulta un tècnic.</string>
+</resources>

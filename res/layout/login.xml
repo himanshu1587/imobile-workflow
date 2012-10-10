@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <Spinner
+    	android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+    	android:id="@+id/know_servers"
+    />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout1">
+        <TextView
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_weight=".7"
+        	android:text="@string/server"
+        	android:id="@+id/textView2" />
+        <EditText
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:id="@+id/server"
+        	android:layout_weight=".3" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout2">
+        <TextView
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_weight=".7"
+        	android:text="@string/user"
+        	android:id="@+id/textView3" />
+        <EditText
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:id="@+id/user"
+        	android:layout_weight=".3" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout3">
+        <TextView
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_weight=".7"
+        	android:text="@string/password"
+        	android:id="@+id/textView4" />
+        <EditText
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:id="@+id/password"
+        	android:layout_weight=".3"
+        	android:inputType="textPassword" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/linearLayout4">
+        <Button
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_weight=".33"
+        	android:id="@+id/connect"
+        	android:text="@string/connect" />
+        <Button
+        	android:text="@string/save"
+        	android:layout_height="wrap_content"
+        	android:layout_width="fill_parent"
+        	android:layout_weight=".33"
+        	android:id="@+id/save" />
+        <Button
+        	android:text="@string/remove"
+        	android:layout_height="wrap_content"
+        	android:layout_width="fill_parent"
+        	android:layout_weight=".33"
+        	android:id="@+id/remove" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout5" android:layout_width="match_parent" android:layout_height="wrap_content"></LinearLayout>
+    
+</LinearLayout>

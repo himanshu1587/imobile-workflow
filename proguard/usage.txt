@@ -1,0 +1,487 @@
+JDOMAbout
+JDOMAbout$Author
+JDOMAbout$Info
+com.blauadvisors.intuidroid.IntalioWS:
+    172:178:public void print_elements(org.jdom.Element)
+    291:298:public java.lang.String get_xsd_form_string(java.lang.String)
+    325:325:public java.lang.String getServer()
+    333:333:public java.lang.String getUser()
+    345:346:public void setToken(java.lang.String)
+    349:349:public int getPort()
+com.blauadvisors.intuidroid.Intd_CheckBox:
+    19:21:public Intd_CheckBox(android.content.Context,org.jdom.Element)
+    32:33:public org.jdom.Element getElement()
+com.blauadvisors.intuidroid.Intd_DatePicker:
+    20:23:public Intd_DatePicker(android.content.Context,org.jdom.Element)
+    49:50:public org.jdom.Element getElement()
+com.blauadvisors.intuidroid.Intd_EditText:
+    59:62:public Intd_EditText(android.content.Context,org.jdom.Element)
+    73:74:public org.jdom.Element getElement()
+com.blauadvisors.intuidroid.Intd_Spinner:
+    20:22:public Intd_Spinner(android.content.Context,org.jdom.Element)
+    33:34:public org.jdom.Element getElement()
+com.blauadvisors.intuidroid.Intd_TaskRow:
+    50:52:public Intd_TaskRow(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)
+com.blauadvisors.intuidroid.Intd_form_widget:
+    public abstract java.lang.String getString()
+    public abstract org.jdom.Element getElement()
+com.blauadvisors.intuidroid.Processes:
+    public android.widget.ScrollView form_view
+com.blauadvisors.intuidroid.R
+com.blauadvisors.intuidroid.R$attr
+com.blauadvisors.intuidroid.R$color
+com.blauadvisors.intuidroid.R$drawable
+com.blauadvisors.intuidroid.R$id
+com.blauadvisors.intuidroid.R$layout
+com.blauadvisors.intuidroid.R$string
+com.blauadvisors.intuidroid.TaskView_Adapter:
+    23:26:public TaskView_Adapter(android.content.Context,android.widget.AdapterView$OnItemClickListener)
+    28:32:public TaskView_Adapter(android.content.Context,java.util.ArrayList,android.widget.AdapterView$OnItemClickListener)
+com.blauadvisors.intuidroid.XSD_form_activity:
+    265:267:public void setXsd(java.lang.String)
+com.blauadvisors.intuidroid.XSD_form_activity_interface
+org.jdom.Attribute:
+    private static final java.lang.String CVS_ID
+    public static final int UNDECLARED_TYPE
+    public static final int CDATA_TYPE
+    public static final int ID_TYPE
+    public static final int IDREF_TYPE
+    public static final int IDREFS_TYPE
+    public static final int ENTITY_TYPE
+    public static final int ENTITIES_TYPE
+    public static final int NMTOKEN_TYPE
+    public static final int NMTOKENS_TYPE
+    public static final int NOTATION_TYPE
+    public static final int ENUMERATED_TYPE
+    205:206:public Attribute(java.lang.String,java.lang.String,org.jdom.Namespace)
+    251:252:public Attribute(java.lang.String,java.lang.String)
+    296:301:public org.jdom.Document getDocument()
+    322:327:public org.jdom.Attribute detach()
+    417:417:public java.lang.String getNamespacePrefix()
+    504:504:public int getAttributeType()
+    600:602:public int getIntValue()
+    617:619:public long getLongValue()
+    635:637:public float getFloatValue()
+    653:663:public double getDoubleValue()
+    678:693:public boolean getBooleanValue()
+    701:707:private void writeObject(java.io.ObjectOutputStream)
+    712:716:private void readObject(java.io.ObjectInputStream)
+org.jdom.AttributeList:
+    private static final java.lang.String CVS_ID
+    private static final int INITIAL_ARRAY_SIZE
+    112:116:final void uncheckedAddAttribute(org.jdom.Attribute)
+    291:316:void clearAndSet(java.util.Collection)
+org.jdom.CDATA:
+    private static final java.lang.String CVS_ID
+    144:169:public void append(java.lang.String)
+    182:186:public void append(org.jdom.Text)
+org.jdom.Comment:
+    private static final java.lang.String CVS_ID
+org.jdom.Content:
+    90:93:public org.jdom.Content detach()
+    117:118:public org.jdom.Element getParentElement()
+    140:141:public org.jdom.Document getDocument()
+org.jdom.ContentList:
+    private static final java.lang.String CVS_ID
+    private static final long serialVersionUID
+    private static final int INITIAL_ARRAY_SIZE
+    108:112:final void uncheckedAddContent(org.jdom.Content)
+    320:344:void clearAndSet(java.util.Collection)
+org.jdom.DataConversionException
+org.jdom.DefaultJDOMFactory:
+    private static final java.lang.String CVS_ID
+    80:80:public org.jdom.Attribute attribute(java.lang.String,java.lang.String,org.jdom.Namespace)
+    89:89:public org.jdom.Attribute attribute(java.lang.String,java.lang.String)
+    114:114:public org.jdom.DocType docType(java.lang.String,java.lang.String)
+    118:118:public org.jdom.DocType docType(java.lang.String)
+    122:122:public org.jdom.Document document(org.jdom.Element,org.jdom.DocType)
+    126:126:public org.jdom.Document document(org.jdom.Element,org.jdom.DocType,java.lang.String)
+    142:142:public org.jdom.Element element(java.lang.String,java.lang.String)
+    146:146:public org.jdom.Element element(java.lang.String,java.lang.String,java.lang.String)
+    151:151:public org.jdom.ProcessingInstruction processingInstruction(java.lang.String,java.util.Map)
+    168:168:public org.jdom.EntityRef entityRef(java.lang.String,java.lang.String)
+    189:190:public void addNamespaceDeclaration(org.jdom.Element,org.jdom.Namespace)
+org.jdom.DescendantIterator
+org.jdom.DocType:
+    private static final java.lang.String CVS_ID
+    131:132:public DocType(java.lang.String,java.lang.String)
+    144:145:public DocType(java.lang.String)
+org.jdom.Document:
+    private static final java.lang.String CVS_ID
+    140:141:public Document(org.jdom.Element,org.jdom.DocType)
+    168:170:public Document(java.util.List)
+    173:173:public int getContentSize()
+    177:177:public int indexOf(org.jdom.Content)
+    250:253:public org.jdom.Element detachRootElement()
+    335:336:public org.jdom.Document addContent(java.util.Collection)
+    350:351:public org.jdom.Document addContent(int,org.jdom.Content)
+    369:370:public org.jdom.Document addContent(int,java.util.Collection)
+    374:380:public java.util.List cloneContent()
+    384:384:public org.jdom.Content getContent(int)
+    407:409:public java.util.List getContent()
+    426:428:public java.util.List getContent(org.jdom.filter.Filter)
+    437:439:public java.util.List removeContent()
+    449:456:public java.util.List removeContent(org.jdom.filter.Filter)
+    494:495:public org.jdom.Document setContent(java.util.Collection)
+    520:520:public final java.lang.String getBaseURI()
+    538:539:public org.jdom.Document setContent(int,org.jdom.Content)
+    559:561:public org.jdom.Document setContent(int,java.util.Collection)
+    565:565:public boolean removeContent(org.jdom.Content)
+    569:569:public org.jdom.Content removeContent(int)
+    600:602:public org.jdom.Document setContent(org.jdom.Content)
+    711:711:public java.util.Iterator getDescendants()
+    724:724:public java.util.Iterator getDescendants(org.jdom.filter.Filter)
+    737:737:public org.jdom.Document getDocument()
+    749:753:public void setProperty(java.lang.String,java.lang.Object)
+    764:765:public java.lang.Object getProperty(java.lang.String)
+org.jdom.Element:
+    private static final java.lang.String CVS_ID
+    private static final int INITIAL_ARRAY_SIZE
+    168:169:public Element(java.lang.String,java.lang.String)
+    184:185:public Element(java.lang.String,java.lang.String,java.lang.String)
+    363:367:public void removeNamespaceDeclaration(org.jdom.Namespace)
+    418:418:public boolean isRootElement()
+    422:422:public int getContentSize()
+    426:426:public int indexOf(org.jdom.Content)
+    452:483:public java.lang.String getText()
+    496:496:public java.lang.String getTextTrim()
+    509:509:public java.lang.String getTextNormalize()
+    522:526:public java.lang.String getChildText(java.lang.String)
+    539:543:public java.lang.String getChildTextTrim(java.lang.String)
+    556:560:public java.lang.String getChildTextNormalize(java.lang.String)
+    573:577:public java.lang.String getChildText(java.lang.String,org.jdom.Namespace)
+    590:594:public java.lang.String getChildTextTrim(java.lang.String,org.jdom.Namespace)
+    607:611:public java.lang.String getChildTextNormalize(java.lang.String,org.jdom.Namespace)
+    677:677:public java.util.List getContent(org.jdom.filter.Filter)
+    686:688:public java.util.List removeContent()
+    698:705:public java.util.List removeContent(org.jdom.filter.Filter)
+    744:745:public org.jdom.Element setContent(java.util.Collection)
+    764:765:public org.jdom.Element setContent(int,org.jdom.Content)
+    785:787:public org.jdom.Parent setContent(int,java.util.Collection)
+    801:801:public org.jdom.Element addContent(java.lang.String)
+    827:828:public org.jdom.Element addContent(java.util.Collection)
+    842:843:public org.jdom.Element addContent(int,org.jdom.Content)
+    861:862:public org.jdom.Element addContent(int,java.util.Collection)
+    866:872:public java.util.List cloneContent()
+    876:876:public org.jdom.Content getContent(int)
+    885:885:public boolean removeContent(org.jdom.Content)
+    889:889:public org.jdom.Content removeContent(int)
+    920:922:public org.jdom.Element setContent(org.jdom.Content)
+    969:969:public org.jdom.Attribute getAttribute(java.lang.String)
+    983:983:public org.jdom.Attribute getAttribute(java.lang.String,org.jdom.Namespace)
+    1012:1012:public java.lang.String getAttributeValue(java.lang.String,java.lang.String)
+    1095:1096:public org.jdom.Element setAttributes(java.util.Collection)
+    1107:1107:public org.jdom.Element setAttributes(java.util.List)
+    1126:1134:public org.jdom.Element setAttribute(java.lang.String,java.lang.String)
+    1157:1165:public org.jdom.Element setAttribute(java.lang.String,java.lang.String,org.jdom.Namespace)
+    1222:1222:public boolean removeAttribute(org.jdom.Attribute)
+    1312:1331:private void writeObject(java.io.ObjectOutputStream)
+    1336:1351:private void readObject(java.io.ObjectInputStream)
+    1359:1359:public java.util.Iterator getDescendants()
+    1372:1373:public java.util.Iterator getDescendants(org.jdom.filter.Filter)
+    1430:1430:public java.util.List getChildren(java.lang.String)
+    1483:1483:public org.jdom.Element getChild(java.lang.String)
+    1497:1497:public boolean removeChild(java.lang.String)
+    1512:1521:public boolean removeChild(java.lang.String,org.jdom.Namespace)
+    1535:1535:public boolean removeChildren(java.lang.String)
+    1550:1561:public boolean removeChildren(java.lang.String,org.jdom.Namespace)
+org.jdom.EntityRef:
+    private static final java.lang.String CVS_ID
+    110:111:public EntityRef(java.lang.String,java.lang.String)
+    157:157:public java.lang.String getPublicID()
+    167:167:public java.lang.String getSystemID()
+org.jdom.FilterIterator
+org.jdom.IllegalAddException:
+    private static final java.lang.String CVS_ID
+    103:111:IllegalAddException(org.jdom.Element,org.jdom.Element,java.lang.String)
+    142:150:IllegalAddException(org.jdom.Element,org.jdom.ProcessingInstruction,java.lang.String)
+    162:168:IllegalAddException(org.jdom.ProcessingInstruction,java.lang.String)
+    181:189:IllegalAddException(org.jdom.Element,org.jdom.Comment,java.lang.String)
+    202:210:IllegalAddException(org.jdom.Element,org.jdom.CDATA,java.lang.String)
+    224:232:IllegalAddException(org.jdom.Element,org.jdom.Text,java.lang.String)
+    243:249:IllegalAddException(org.jdom.Comment,java.lang.String)
+    262:270:IllegalAddException(org.jdom.Element,org.jdom.EntityRef,java.lang.String)
+org.jdom.IllegalDataException:
+    private static final java.lang.String CVS_ID
+org.jdom.IllegalNameException:
+    private static final java.lang.String CVS_ID
+    104:111:IllegalNameException(java.lang.String,java.lang.String)
+org.jdom.IllegalTargetException:
+    private static final java.lang.String CVS_ID
+org.jdom.JDOMException:
+    private static final java.lang.String CVS_ID
+org.jdom.JDOMFactory:
+    public abstract org.jdom.Attribute attribute(java.lang.String,java.lang.String,org.jdom.Namespace)
+    public abstract org.jdom.Attribute attribute(java.lang.String,java.lang.String)
+    public abstract org.jdom.DocType docType(java.lang.String,java.lang.String)
+    public abstract org.jdom.DocType docType(java.lang.String)
+    public abstract org.jdom.Document document(org.jdom.Element,org.jdom.DocType)
+    public abstract org.jdom.Document document(org.jdom.Element,org.jdom.DocType,java.lang.String)
+    public abstract org.jdom.Element element(java.lang.String,java.lang.String)
+    public abstract org.jdom.Element element(java.lang.String,java.lang.String,java.lang.String)
+    public abstract org.jdom.ProcessingInstruction processingInstruction(java.lang.String,java.util.Map)
+    public abstract org.jdom.EntityRef entityRef(java.lang.String,java.lang.String)
+    public abstract void addNamespaceDeclaration(org.jdom.Element,org.jdom.Namespace)
+org.jdom.Namespace:
+    private static final java.lang.String CVS_ID
+    203:203:public static org.jdom.Namespace getNamespace(java.lang.String)
+org.jdom.NamespaceKey:
+    private static final java.lang.String CVS_ID
+org.jdom.Parent:
+    public abstract int getContentSize()
+    public abstract int indexOf(org.jdom.Content)
+    public abstract java.util.List cloneContent()
+    public abstract org.jdom.Content getContent(int)
+    public abstract java.util.List getContent()
+    public abstract java.util.List getContent(org.jdom.filter.Filter)
+    public abstract java.util.List removeContent()
+    public abstract java.util.List removeContent(org.jdom.filter.Filter)
+    public abstract boolean removeContent(org.jdom.Content)
+    public abstract org.jdom.Content removeContent(int)
+    public abstract java.lang.Object clone()
+    public abstract java.util.Iterator getDescendants()
+    public abstract java.util.Iterator getDescendants(org.jdom.filter.Filter)
+    public abstract org.jdom.Document getDocument()
+org.jdom.ProcessingInstruction:
+    private static final java.lang.String CVS_ID
+    103:106:public ProcessingInstruction(java.lang.String,java.util.Map)
+    176:183:public java.util.List getPseudoAttributeNames()
+    213:222:public org.jdom.ProcessingInstruction setData(java.util.Map)
+    236:236:public java.lang.String getPseudoAttributeValue(java.lang.String)
+    249:261:public org.jdom.ProcessingInstruction setPseudoAttribute(java.lang.String,java.lang.String)
+    273:278:public boolean removePseudoAttribute(java.lang.String)
+    288:304:private java.lang.String toString(java.util.Map)
+org.jdom.Text:
+    private static final java.lang.String CVS_ID
+    static final java.lang.String EMPTY_STRING
+    119:119:public java.lang.String getTextTrim()
+    206:216:public void append(java.lang.String)
+    225:229:public void append(org.jdom.Text)
+org.jdom.UncheckedJDOMFactory
+org.jdom.Verifier:
+    private static final java.lang.String CVS_ID
+    649:679:public static java.lang.String checkURI(java.lang.String)
+    699:703:public static boolean isHexDigit(char)
+    739:762:public static boolean isURICharacter(char)
+    832:832:public static boolean isXMLLetterOrDigit(char)
+org.jdom.adapters.AbstractDOMAdapter
+org.jdom.adapters.CrimsonDOMAdapter
+org.jdom.adapters.DOMAdapter
+org.jdom.adapters.JAXPDOMAdapter
+org.jdom.adapters.OracleV1DOMAdapter
+org.jdom.adapters.OracleV2DOMAdapter
+org.jdom.adapters.XML4JDOMAdapter
+org.jdom.adapters.XercesDOMAdapter
+org.jdom.filter.AbstractFilter:
+    private static final java.lang.String CVS_ID
+    71:71:public org.jdom.filter.Filter negate()
+    75:75:public org.jdom.filter.Filter or(org.jdom.filter.Filter)
+    79:79:public org.jdom.filter.Filter and(org.jdom.filter.Filter)
+org.jdom.filter.AndFilter
+org.jdom.filter.ContentFilter
+org.jdom.filter.ElementFilter:
+    private static final java.lang.String CVS_ID
+    90:92:public ElementFilter(java.lang.String)
+    99:101:public ElementFilter(org.jdom.Namespace)
+    163:175:private void writeObject(java.io.ObjectOutputStream)
+    180:188:private void readObject(java.io.ObjectInputStream)
+org.jdom.filter.NegateFilter
+org.jdom.filter.OrFilter
+org.jdom.input.BuilderErrorHandler:
+    private static final java.lang.String CVS_ID
+org.jdom.input.DOMBuilder
+org.jdom.input.JAXPParserFactory:
+    private static final java.lang.String CVS_ID
+    private static final java.lang.String JAXP_SCHEMA_LANGUAGE_PROPERTY
+    private static final java.lang.String JAXP_SCHEMA_LOCATION_PROPERTY
+    122:145:public static org.xml.sax.XMLReader createParser(boolean,java.util.Map,java.util.Map)
+    163:177:private static void setProperty(javax.xml.parsers.SAXParser,java.util.Map,java.lang.String)
+org.jdom.input.JDOMParseException:
+    private static final java.lang.String CVS_ID
+    120:120:public org.jdom.Document getPartialDocument()
+    131:131:public java.lang.String getPublicId()
+    143:143:public java.lang.String getSystemId()
+    157:157:public int getLineNumber()
+    171:171:public int getColumnNumber()
+org.jdom.input.SAXBuilder:
+    private static final java.lang.String CVS_ID
+    private static final java.lang.String DEFAULT_SAX_DRIVER
+    185:186:public SAXBuilder(java.lang.String)
+    198:201:public SAXBuilder(java.lang.String,boolean)
+    209:209:public java.lang.String getDriverClass()
+    217:217:public org.jdom.JDOMFactory getFactory()
+    227:228:public void setFactory(org.jdom.JDOMFactory)
+    236:236:public boolean getValidation()
+    246:247:public void setValidation(boolean)
+    254:254:public org.xml.sax.ErrorHandler getErrorHandler()
+    263:264:public void setErrorHandler(org.xml.sax.ErrorHandler)
+    272:272:public org.xml.sax.EntityResolver getEntityResolver()
+    281:282:public void setEntityResolver(org.xml.sax.EntityResolver)
+    290:290:public org.xml.sax.DTDHandler getDTDHandler()
+    299:300:public void setDTDHandler(org.xml.sax.DTDHandler)
+    308:308:public org.xml.sax.XMLFilter getXMLFilter()
+    317:318:public void setXMLFilter(org.xml.sax.XMLFilter)
+    328:328:public boolean getIgnoringElementContentWhitespace()
+    343:344:public void setIgnoringElementContentWhitespace(boolean)
+    356:356:public boolean getIgnoringBoundaryWhitespace()
+    376:377:public void setIgnoringBoundaryWhitespace(boolean)
+    387:387:public boolean getReuseParser()
+    403:405:public void setReuseParser(boolean)
+    421:424:public void setFastReconfigure(boolean)
+    444:445:public void setFeature(java.lang.String,boolean)
+    464:465:public void setProperty(java.lang.String,java.lang.Object)
+    883:886:public org.jdom.Document build(java.io.File)
+    904:905:public org.jdom.Document build(java.net.URL)
+    924:926:public org.jdom.Document build(java.io.InputStream,java.lang.String)
+    968:970:public org.jdom.Document build(java.io.Reader,java.lang.String)
+    986:986:public org.jdom.Document build(java.lang.String)
+    1019:1066:private static java.net.URL fileToURL(java.io.File)
+    1076:1076:public boolean getExpandEntities()
+    1103:1104:public void setExpandEntities(boolean)
+org.jdom.input.SAXHandler:
+    private static final java.lang.String CVS_ID
+    222:230:protected void pushElement(org.jdom.Element)
+    250:250:public org.jdom.JDOMFactory getFactory()
+    276:276:public boolean getExpandEntities()
+    315:315:public boolean getIgnoringBoundaryWhitespace()
+    329:329:public boolean getIgnoringElementContentWhitespace()
+    1016:1016:public org.xml.sax.Locator getDocumentLocator()
+org.jdom.input.TextBuffer:
+    private static final java.lang.String CVS_ID
+    117:121:int size()
+org.jdom.output.DOMOutputter
+org.jdom.output.Format:
+    private static final java.lang.String CVS_ID
+    private static final java.lang.String STANDARD_INDENT
+    private static final java.lang.String STANDARD_LINE_SEPARATOR
+    private static final java.lang.String STANDARD_ENCODING
+    104:107:public static org.jdom.output.Format getPrettyFormat()
+    120:122:public static org.jdom.output.Format getCompactFormat()
+    178:179:public org.jdom.output.Format setEscapeStrategy(org.jdom.output.EscapeStrategy)
+    188:188:public org.jdom.output.EscapeStrategy getEscapeStrategy()
+    224:225:public org.jdom.output.Format setLineSeparator(java.lang.String)
+    234:234:public java.lang.String getLineSeparator()
+    249:250:public org.jdom.output.Format setOmitEncoding(boolean)
+    259:259:public boolean getOmitEncoding()
+    273:274:public org.jdom.output.Format setOmitDeclaration(boolean)
+    283:283:public boolean getOmitDeclaration()
+    296:297:public org.jdom.output.Format setExpandEmptyElements(boolean)
+    306:306:public boolean getExpandEmptyElements()
+    347:347:public boolean getIgnoreTrAXEscapingPIs()
+    357:358:public org.jdom.output.Format setTextMode(org.jdom.output.Format$TextMode)
+    367:367:public org.jdom.output.Format$TextMode getTextMode()
+    381:382:public org.jdom.output.Format setIndent(java.lang.String)
+    391:391:public java.lang.String getIndent()
+    403:405:public org.jdom.output.Format setEncoding(java.lang.String)
+    414:414:public java.lang.String getEncoding()
+org.jdom.output.JDOMLocator
+org.jdom.output.NamespaceStack:
+    private static final java.lang.String CVS_ID
+org.jdom.output.SAXOutputter
+org.jdom.output.XMLOutputter:
+    private static final java.lang.String CVS_ID
+    148:151:public XMLOutputter(org.jdom.output.Format)
+    161:164:public XMLOutputter(org.jdom.output.XMLOutputter)
+    176:178:public void setFormat(org.jdom.output.Format)
+    185:185:public org.jdom.output.Format getFormat()
+    202:204:public void output(org.jdom.Document,java.io.OutputStream)
+    213:215:public void output(org.jdom.DocType,java.io.OutputStream)
+    226:228:public void output(org.jdom.Element,java.io.OutputStream)
+    242:244:public void outputElementContent(org.jdom.Element,java.io.OutputStream)
+    257:259:public void output(java.util.List,java.io.OutputStream)
+    268:270:public void output(org.jdom.CDATA,java.io.OutputStream)
+    280:282:public void output(org.jdom.Text,java.io.OutputStream)
+    291:293:public void output(org.jdom.Comment,java.io.OutputStream)
+    303:305:public void output(org.jdom.ProcessingInstruction,java.io.OutputStream)
+    314:316:public void output(org.jdom.EntityRef,java.io.OutputStream)
+    324:324:private java.io.Writer makeWriter(java.io.OutputStream)
+    334:342:private static java.io.Writer makeWriter(java.io.OutputStream,java.lang.String)
+    364:404:public void output(org.jdom.Document,java.io.Writer)
+    444:448:public void outputElementContent(org.jdom.Element,java.io.Writer)
+    461:464:public void output(java.util.List,java.io.Writer)
+    473:475:public void output(org.jdom.CDATA,java.io.Writer)
+    485:487:public void output(org.jdom.Text,java.io.Writer)
+    525:527:public void output(org.jdom.EntityRef,java.io.Writer)
+    540:544:public java.lang.String outputString(org.jdom.Document)
+    584:588:public java.lang.String outputString(java.util.List)
+    599:603:public java.lang.String outputString(org.jdom.CDATA)
+    614:618:public java.lang.String outputString(org.jdom.Text)
+    660:664:public java.lang.String outputString(org.jdom.EntityRef)
+    682:695:protected void printDeclaration(java.io.Writer,org.jdom.Document,java.lang.String)
+    827:832:protected void printText(java.io.Writer,org.jdom.Text)
+org.jdom.transform.JDOMResult
+org.jdom.transform.JDOMResult$DocumentBuilder
+org.jdom.transform.JDOMResult$FragmentHandler
+org.jdom.transform.JDOMSource
+org.jdom.transform.JDOMSource$DocumentReader
+org.jdom.transform.JDOMSource$JDOMInputSource
+org.jdom.transform.XSLTransformException
+org.jdom.transform.XSLTransformer
+org.jdom.xpath.JaxenXPath
+org.jdom.xpath.JaxenXPath$NSContext
+org.jdom.xpath.XPath
+org.jdom.xpath.XPath$XPathString
+org.kobjects.base64.Base64
+org.kobjects.crypt.Crypt
+org.kobjects.io.BoundInputStream
+org.kobjects.io.LookAheadReader
+org.kobjects.isodate.IsoDate
+org.kobjects.mime.Decoder
+org.kobjects.pim.PimField
+org.kobjects.pim.PimItem
+org.kobjects.pim.PimParser
+org.kobjects.pim.PimWriter
+org.kobjects.pim.VCard
+org.kobjects.rss.RssReader
+org.kobjects.util.ChainedRuntimeException
+org.kobjects.util.Csv
+org.kobjects.util.SingleEnumeration
+org.kobjects.util.Strings
+org.kobjects.util.Util
+org.kobjects.xml.XmlReader
+org.kobjects.xmlrpc.Driver
+org.kobjects.xmlrpc.XmlRpcParser
+org.ksoap2.HeaderProperty
+org.ksoap2.SoapEnvelope
+org.ksoap2.SoapFault
+org.ksoap2.serialization.AttributeContainer
+org.ksoap2.serialization.AttributeInfo
+org.ksoap2.serialization.DM
+org.ksoap2.serialization.FwdRef
+org.ksoap2.serialization.KvmSerializable
+org.ksoap2.serialization.Marshal
+org.ksoap2.serialization.MarshalBase64
+org.ksoap2.serialization.MarshalDate
+org.ksoap2.serialization.MarshalFloat
+org.ksoap2.serialization.MarshalHashtable
+org.ksoap2.serialization.MarshalHashtable$ItemSoapObject
+org.ksoap2.serialization.NullSoapObject
+org.ksoap2.serialization.PropertyInfo
+org.ksoap2.serialization.SoapObject
+org.ksoap2.serialization.SoapPrimitive
+org.ksoap2.serialization.SoapSerializationEnvelope
+org.ksoap2.transport.AndroidHttpTransport
+org.ksoap2.transport.AndroidServiceConnection
+org.ksoap2.transport.HttpTransportSE
+org.ksoap2.transport.HttpsServiceConnectionSE
+org.ksoap2.transport.HttpsTransportSE
+org.ksoap2.transport.KeepAliveHttpsTransportSE
+org.ksoap2.transport.KeepAliveHttpsTransportSE$1
+org.ksoap2.transport.ServiceConnection
+org.ksoap2.transport.ServiceConnectionSE
+org.ksoap2.transport.Transport
+org.kxml2.io.KXmlParser
+org.kxml2.io.KXmlSerializer
+org.kxml2.kdom.Document
+org.kxml2.kdom.Element
+org.kxml2.kdom.Node
+org.kxml2.wap.Wbxml
+org.kxml2.wap.WbxmlParser
+org.kxml2.wap.WbxmlSerializer
+org.kxml2.wap.syncml.SyncML
+org.kxml2.wap.wml.Wml
+org.kxml2.wap.wv.WV
+org.xmlpull.v1.XmlPullParser
+org.xmlpull.v1.XmlPullParserException
+org.xmlpull.v1.XmlPullParserFactory
+org.xmlpull.v1.XmlSerializer

@@ -1,0 +1,10 @@
+com.blauadvisors.intuidroid.IntalioWS
+com.blauadvisors.intuidroid.Intd_TaskRow
+com.blauadvisors.intuidroid.Intd_TaskRow: Intd_TaskRow(android.content.Context,android.util.AttributeSet,int)
+com.blauadvisors.intuidroid.Intd_TaskRow: Intd_TaskRow(android.content.Context,android.util.AttributeSet)
+com.blauadvisors.intuidroid.Intuidroid
+com.blauadvisors.intuidroid.Processes
+com.blauadvisors.intuidroid.TasksNotifs
+com.blauadvisors.intuidroid.XSD_form_activity
+com.blauadvisors.intuidroid.XSD_processes_form
+com.blauadvisors.intuidroid.XSD_tasksNotifs_form

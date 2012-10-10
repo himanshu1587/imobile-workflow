@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Diui</string>
+    <string name="tasks">Tareas</string>
+    <string name="processes">Procesos</string>
+    <string name="server_n_login">Servidor y credenciales de acceso</string>
+    <string name="server">Servidor</string>
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="connect">Conectar</string>
+    <string name="tasksProcesses_label">Descripción</string>
+    <string name="creation_label">Creado</string>
+    <string name="save">Guardar</string>
+    <string name="remove">Borrar</string>
+    <string name="server_saved">Servidor guardado</string>
+    <string name="server_already_saved">Servidor guardado préviamente</string>
+    <string name="server_removed">Servidor borrado</string>
+    <string name="server_not_found">Servidor no encontrado</string>
+    <string name="couldnt_connect">Imposible conectar</string>
+    <string name="new_task">Nueva tarea</string>
+    <string name="invalid_input">Entrada inválida: </string>
+    <string name="logout">Desconectar</string>
+    <string name="exit">Salir</string>
+    <string name="start">Iniciar</string>
+    <string name="complete">Completar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="select_server">-Selecciona servidor guardado-</string>
+    <string name="invalid_date">¡Fecha invalida!</string>
+    <string name="cannot_start_process">El proceso no se puede iniciar. Por favor, consulta a un técnico.</string>
+    <string name="cannot_complete_task">La tarea no se puede completar. Por favor, consulta a un técnico.</string>
+    <string name="cannot_open_form">No se puede abrir el formulario. Por favor, consulta a un técnico.</string>
+</resources>

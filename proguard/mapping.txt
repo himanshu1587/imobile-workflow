@@ -1,0 +1,662 @@
+com.blauadvisors.intuidroid.IntalioWS -> com.blauadvisors.intuidroid.IntalioWS:
+    android.os.IBinder iwsBinder -> a
+    java.lang.String server -> b
+    java.lang.String user -> c
+    java.lang.String token -> d
+    int port -> e
+    void xmlPost_login(java.lang.String) -> a
+    java.util.ArrayList get_processes_list() -> a
+    java.util.ArrayList get_ready_list(java.lang.String) -> g
+    java.util.ArrayList get_readyTasks_list() -> b
+    java.util.ArrayList get_readyNotifs_list() -> c
+    java.lang.String get_task_input(java.lang.String) -> b
+    org.jdom.Element complete_task(java.lang.String,org.jdom.Element) -> a
+    org.jdom.Element complete_notify(java.lang.String) -> c
+    org.jdom.Element ws_call(java.lang.String,java.lang.String) -> a
+    java.lang.String get_url_form(java.lang.String) -> h
+    java.io.BufferedReader get_xsd_form(java.lang.String) -> d
+    java.lang.Boolean check_xsd_availability(java.lang.String) -> i
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void setServer(java.lang.String) -> e
+    void setUser(java.lang.String) -> f
+    java.lang.String getToken() -> d
+    void setPort$13462e() -> e
+com.blauadvisors.intuidroid.IntalioWS$IntalioWSBinder -> com.blauadvisors.intuidroid.a:
+    com.blauadvisors.intuidroid.IntalioWS this$0 -> a
+    com.blauadvisors.intuidroid.IntalioWS getService() -> a
+com.blauadvisors.intuidroid.Intd_CheckBox -> com.blauadvisors.intuidroid.b:
+    org.jdom.Element element -> a
+    void setElement(org.jdom.Element) -> a
+    void setElementText() -> a
+    boolean hasValidInput() -> b
+com.blauadvisors.intuidroid.Intd_DatePicker -> com.blauadvisors.intuidroid.c:
+    org.jdom.Element element -> a
+    boolean setString(java.lang.String) -> a
+    void setElement(org.jdom.Element) -> a
+    void setElementText() -> a
+    boolean hasValidInput() -> b
+com.blauadvisors.intuidroid.Intd_EditText -> com.blauadvisors.intuidroid.d:
+    org.jdom.Element element -> a
+    java.util.regex.Pattern pattern -> b
+    int default_text_color -> c
+    java.lang.String getString() -> c
+    void setElement(org.jdom.Element) -> a
+    void setElementText() -> a
+    boolean hasValidInput() -> b
+    int access$0(com.blauadvisors.intuidroid.Intd_EditText) -> a
+com.blauadvisors.intuidroid.Intd_EditText$1 -> com.blauadvisors.intuidroid.e:
+    com.blauadvisors.intuidroid.Intd_EditText this$0 -> a
+    void onFocusChange(android.view.View,boolean) -> onFocusChange
+com.blauadvisors.intuidroid.Intd_Spinner -> com.blauadvisors.intuidroid.f:
+    org.jdom.Element element -> a
+    void setElement(org.jdom.Element) -> a
+    void setElementText() -> a
+    boolean hasValidInput() -> b
+com.blauadvisors.intuidroid.Intd_TaskRow -> com.blauadvisors.intuidroid.Intd_TaskRow:
+    java.lang.String id -> a
+    java.lang.String type -> b
+    java.lang.String url -> c
+    android.widget.TextView description -> d
+    android.widget.TextView date -> e
+    android.widget.ImageView icon -> f
+com.blauadvisors.intuidroid.Intd_form_widget -> com.blauadvisors.intuidroid.g:
+    void setElementText() -> a
+    void setElement(org.jdom.Element) -> a
+    boolean hasValidInput() -> b
+com.blauadvisors.intuidroid.Intuidroid -> com.blauadvisors.intuidroid.Intuidroid:
+    com.blauadvisors.intuidroid.IntalioWS intalio -> a
+    android.app.Dialog login -> b
+    android.widget.TabHost$TabSpec tasks -> c
+    android.widget.TabHost$TabSpec processes -> d
+    android.content.ServiceConnection mConnection -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    java.util.List read_connection_settings() -> a
+    android.app.Dialog onCreateDialog(int,android.os.Bundle) -> onCreateDialog
+    void onClick(android.view.View) -> onClick
+    void access$0(com.blauadvisors.intuidroid.Intuidroid,com.blauadvisors.intuidroid.IntalioWS) -> a
+    android.app.Dialog access$1(com.blauadvisors.intuidroid.Intuidroid) -> a
+    void access$2(com.blauadvisors.intuidroid.Intuidroid) -> b
+com.blauadvisors.intuidroid.Intuidroid$1 -> com.blauadvisors.intuidroid.h:
+    com.blauadvisors.intuidroid.Intuidroid this$0 -> a
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+com.blauadvisors.intuidroid.Intuidroid$1OnSelectServer -> com.blauadvisors.intuidroid.i:
+    com.blauadvisors.intuidroid.Intuidroid this$0 -> a
+    void onItemSelected(android.widget.AdapterView,android.view.View,int,long) -> onItemSelected
+    void onNothingSelected(android.widget.AdapterView) -> onNothingSelected
+com.blauadvisors.intuidroid.Intuidroid$2 -> com.blauadvisors.intuidroid.j:
+    com.blauadvisors.intuidroid.Intuidroid this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.blauadvisors.intuidroid.Intuidroid$3 -> com.blauadvisors.intuidroid.k:
+    com.blauadvisors.intuidroid.Intuidroid this$0 -> a
+    java.util.List val$servers_info -> b
+    void onClick(android.view.View) -> onClick
+com.blauadvisors.intuidroid.Intuidroid$4 -> com.blauadvisors.intuidroid.l:
+    com.blauadvisors.intuidroid.Intuidroid this$0 -> a
+    java.util.List val$servers_info -> b
+    void onClick(android.view.View) -> onClick
+com.blauadvisors.intuidroid.Intuidroid$5 -> com.blauadvisors.intuidroid.m:
+    com.blauadvisors.intuidroid.Intuidroid this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.blauadvisors.intuidroid.Intuidroid$6 -> com.blauadvisors.intuidroid.n:
+    com.blauadvisors.intuidroid.Intuidroid this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.blauadvisors.intuidroid.Processes -> com.blauadvisors.intuidroid.Processes:
+    com.blauadvisors.intuidroid.IntalioWS intalio -> c
+    com.blauadvisors.intuidroid.TaskView_Adapter list_adapter -> d
+    android.os.Handler processesListUpdater -> a
+    java.lang.Runnable mUpdateTimeTask -> b
+    android.content.ServiceConnection mConnection -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+    void refresh_processes_list() -> a
+    void access$0(com.blauadvisors.intuidroid.Processes) -> a
+    void access$1(com.blauadvisors.intuidroid.Processes,com.blauadvisors.intuidroid.IntalioWS) -> a
+com.blauadvisors.intuidroid.Processes$1 -> com.blauadvisors.intuidroid.o:
+    com.blauadvisors.intuidroid.Processes this$0 -> a
+    void run() -> run
+com.blauadvisors.intuidroid.Processes$2 -> com.blauadvisors.intuidroid.p:
+    com.blauadvisors.intuidroid.Processes this$0 -> a
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+com.blauadvisors.intuidroid.Server_info -> com.blauadvisors.intuidroid.q:
+    java.lang.String server -> a
+    java.lang.String user -> b
+    java.lang.String pwd -> c
+    java.lang.String getServer() -> a
+    void setServer(java.lang.String) -> a
+    java.lang.String getUser() -> b
+    void setUser(java.lang.String) -> b
+    java.lang.String getPwd() -> c
+    void setPwd(java.lang.String) -> c
+    java.lang.String toString() -> toString
+    byte[] toFile() -> d
+com.blauadvisors.intuidroid.TaskView_Adapter -> com.blauadvisors.intuidroid.r:
+    android.content.Context context -> a
+    java.util.List task_list -> b
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void set_task_list(java.util.ArrayList) -> a
+com.blauadvisors.intuidroid.TasksNotifs -> com.blauadvisors.intuidroid.TasksNotifs:
+    com.blauadvisors.intuidroid.IntalioWS intalio -> a
+    java.util.ArrayList tasks_list -> b
+    com.blauadvisors.intuidroid.TaskView_Adapter list_adapter -> e
+    android.os.Handler tasksListUpdater -> c
+    java.lang.Runnable mUpdateTimeTask -> d
+    android.content.ServiceConnection mConnection -> f
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+    void refresh_tasks_list() -> a
+    void access$0(com.blauadvisors.intuidroid.TasksNotifs) -> a
+com.blauadvisors.intuidroid.TasksNotifs$1 -> com.blauadvisors.intuidroid.s:
+    com.blauadvisors.intuidroid.TasksNotifs this$0 -> a
+    void run() -> run
+com.blauadvisors.intuidroid.TasksNotifs$2 -> com.blauadvisors.intuidroid.t:
+    com.blauadvisors.intuidroid.TasksNotifs this$0 -> a
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+com.blauadvisors.intuidroid.XSD_form_activity -> com.blauadvisors.intuidroid.XSD_form_activity:
+    org.jdom.Element e_req -> a
+    org.jdom.Element orig_e -> b
+    org.jdom.Namespace ns -> c
+    int input_count -> d
+    android.widget.LinearLayout layout -> e
+    android.widget.ScrollView scroll -> f
+    void onCreate(android.os.Bundle) -> onCreate
+    org.jdom.Element get_type(java.lang.String) -> a
+    void get_builtin_type(java.lang.String,java.lang.String,org.jdom.Element) -> a
+    org.jdom.Element get_complex_type(org.jdom.Element,org.jdom.Element) -> a
+    void print_input(android.view.View,java.lang.String,org.jdom.Element) -> a
+    void print_text_input(java.lang.String,org.jdom.Element) -> a
+    void print_simple_type(org.jdom.Element,java.lang.String,org.jdom.Element) -> a
+    void print_complex_type_separator(java.lang.String) -> b
+    boolean has_attribute(org.jdom.Element,java.lang.String) -> a
+    void setE_req(java.lang.String) -> c
+    void setXsd(java.io.BufferedReader) -> a
+com.blauadvisors.intuidroid.XSD_processes_form -> com.blauadvisors.intuidroid.XSD_processes_form:
+    java.lang.String process_id -> g
+    java.lang.String process_url -> h
+    com.blauadvisors.intuidroid.IntalioWS intalio -> i
+    android.content.ServiceConnection mConnection -> j
+    void onCreate(android.os.Bundle) -> onCreate
+    void get_elements(org.jdom.Element,org.jdom.Element) -> b
+    void print_form() -> a
+    void access$0(com.blauadvisors.intuidroid.XSD_processes_form,com.blauadvisors.intuidroid.IntalioWS) -> a
+    com.blauadvisors.intuidroid.IntalioWS access$1(com.blauadvisors.intuidroid.XSD_processes_form) -> a
+    java.lang.String access$2(com.blauadvisors.intuidroid.XSD_processes_form) -> b
+    java.lang.String access$3(com.blauadvisors.intuidroid.XSD_processes_form) -> c
+com.blauadvisors.intuidroid.XSD_processes_form$1 -> com.blauadvisors.intuidroid.u:
+    com.blauadvisors.intuidroid.XSD_processes_form this$0 -> a
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+com.blauadvisors.intuidroid.XSD_processes_form$2 -> com.blauadvisors.intuidroid.v:
+    com.blauadvisors.intuidroid.XSD_processes_form this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.blauadvisors.intuidroid.XSD_processes_form$3 -> com.blauadvisors.intuidroid.w:
+    com.blauadvisors.intuidroid.XSD_processes_form this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.blauadvisors.intuidroid.XSD_tasksNotifs_form -> com.blauadvisors.intuidroid.XSD_tasksNotifs_form:
+    java.lang.String task_id -> g
+    java.lang.String task_type -> h
+    java.lang.String task_url -> i
+    com.blauadvisors.intuidroid.IntalioWS intalio -> j
+    android.content.ServiceConnection mConnection -> k
+    void onCreate(android.os.Bundle) -> onCreate
+    void get_elements(org.jdom.Element,org.jdom.Element) -> b
+    void print_form() -> a
+    void access$0(com.blauadvisors.intuidroid.XSD_tasksNotifs_form,com.blauadvisors.intuidroid.IntalioWS) -> a
+    com.blauadvisors.intuidroid.IntalioWS access$1(com.blauadvisors.intuidroid.XSD_tasksNotifs_form) -> a
+    java.lang.String access$2(com.blauadvisors.intuidroid.XSD_tasksNotifs_form) -> b
+    java.lang.String access$3(com.blauadvisors.intuidroid.XSD_tasksNotifs_form) -> c
+    java.lang.String access$4(com.blauadvisors.intuidroid.XSD_tasksNotifs_form) -> d
+com.blauadvisors.intuidroid.XSD_tasksNotifs_form$1 -> com.blauadvisors.intuidroid.x:
+    com.blauadvisors.intuidroid.XSD_tasksNotifs_form this$0 -> a
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+com.blauadvisors.intuidroid.XSD_tasksNotifs_form$2 -> com.blauadvisors.intuidroid.y:
+    com.blauadvisors.intuidroid.XSD_tasksNotifs_form this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.blauadvisors.intuidroid.XSD_tasksNotifs_form$3 -> com.blauadvisors.intuidroid.z:
+    com.blauadvisors.intuidroid.XSD_tasksNotifs_form this$0 -> a
+    void onClick(android.view.View) -> onClick
+org.jdom.Attribute -> a.a.a:
+    java.lang.String name -> a
+    org.jdom.Namespace namespace -> b
+    java.lang.String value -> c
+    int type -> d
+    org.jdom.Element parent -> e
+    org.jdom.Element getParent() -> a
+    org.jdom.Attribute setParent(org.jdom.Element) -> a
+    java.lang.String getName() -> b
+    java.lang.String getQualifiedName() -> c
+    java.lang.String getNamespaceURI() -> d
+    org.jdom.Namespace getNamespace() -> e
+    java.lang.String getValue() -> f
+    java.lang.String toString() -> toString
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.Object clone() -> clone
+org.jdom.AttributeList -> a.a.b:
+    org.jdom.Attribute[] elementData -> a
+    int size -> b
+    org.jdom.Element parent -> c
+    boolean add(java.lang.Object) -> add
+    void add(int,java.lang.Object) -> add
+    void add(int,org.jdom.Attribute) -> a
+    boolean addAll(java.util.Collection) -> addAll
+    boolean addAll(int,java.util.Collection) -> addAll
+    void clear() -> clear
+    void ensureCapacity(int) -> a
+    java.lang.Object get(int) -> get
+    java.lang.Object get(java.lang.String,org.jdom.Namespace) -> a
+    int indexOf(java.lang.String,org.jdom.Namespace) -> c
+    java.lang.Object remove(int) -> remove
+    boolean remove(java.lang.String,org.jdom.Namespace) -> b
+    java.lang.Object set(int,java.lang.Object) -> set
+    java.lang.Object set(int,org.jdom.Attribute) -> b
+    int indexOfDuplicate(org.jdom.Attribute) -> a
+    int size() -> size
+    java.lang.String toString() -> toString
+org.jdom.CDATA -> a.a.c:
+    org.jdom.Text setText(java.lang.String) -> a
+    java.lang.String toString() -> toString
+org.jdom.Comment -> a.a.d:
+    java.lang.String text -> a
+    java.lang.String getValue() -> a
+    java.lang.String getText() -> b
+    java.lang.String toString() -> toString
+org.jdom.Content -> a.a.e:
+    org.jdom.Parent parent -> b
+    org.jdom.Parent getParent() -> c
+    org.jdom.Content setParent(org.jdom.Parent) -> a
+    java.lang.String getValue() -> a
+    java.lang.Object clone() -> clone
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+org.jdom.ContentList -> a.a.f:
+    org.jdom.Content[] elementData -> a
+    int size -> b
+    org.jdom.Parent parent -> c
+    void add(int,java.lang.Object) -> add
+    boolean addAll(java.util.Collection) -> addAll
+    boolean addAll(int,java.util.Collection) -> addAll
+    void clear() -> clear
+    void ensureCapacity(int) -> a
+    java.lang.Object get(int) -> get
+    java.util.List getView(org.jdom.filter.Filter) -> a
+    int indexOfFirstElement() -> a
+    int indexOfDocType() -> b
+    java.lang.Object remove(int) -> remove
+    java.lang.Object set(int,java.lang.Object) -> set
+    int size() -> size
+    java.lang.String toString() -> toString
+    int access$000(org.jdom.ContentList) -> a
+    org.jdom.Content[] access$100(org.jdom.ContentList) -> b
+    int access$200(org.jdom.ContentList) -> c
+org.jdom.ContentList$FilterList -> a.a.g:
+    org.jdom.filter.Filter filter -> a
+    int count -> b
+    int expected -> c
+    org.jdom.ContentList this$0 -> d
+    void add(int,java.lang.Object) -> add
+    java.lang.Object get(int) -> get
+    java.util.Iterator iterator() -> iterator
+    java.util.ListIterator listIterator() -> listIterator
+    java.util.ListIterator listIterator(int) -> listIterator
+    java.lang.Object remove(int) -> remove
+    java.lang.Object set(int,java.lang.Object) -> set
+    int size() -> size
+    int getAdjustedIndex(int) -> a
+org.jdom.ContentList$FilterListIterator -> a.a.h:
+    org.jdom.filter.Filter filter -> a
+    boolean forward -> b
+    boolean canremove -> c
+    boolean canset -> d
+    int cursor -> e
+    int tmpcursor -> f
+    int index -> g
+    int expected -> h
+    int fsize -> i
+    org.jdom.ContentList this$0 -> j
+    boolean hasNext() -> hasNext
+    java.lang.Object next() -> next
+    boolean hasPrevious() -> hasPrevious
+    java.lang.Object previous() -> previous
+    int nextIndex() -> nextIndex
+    int previousIndex() -> previousIndex
+    void add(java.lang.Object) -> add
+    void remove() -> remove
+    void set(java.lang.Object) -> set
+    void checkConcurrentModification() -> a
+org.jdom.DefaultJDOMFactory -> a.a.i:
+    org.jdom.Attribute attribute(java.lang.String,java.lang.String,int,org.jdom.Namespace) -> a
+    org.jdom.Attribute attribute(java.lang.String,java.lang.String,int) -> a
+    org.jdom.CDATA cdata(java.lang.String) -> a
+    org.jdom.Text text(java.lang.String) -> b
+    org.jdom.Comment comment(java.lang.String) -> c
+    org.jdom.DocType docType(java.lang.String,java.lang.String,java.lang.String) -> a
+    org.jdom.Document document$3782d51e() -> a
+    org.jdom.Element element(java.lang.String,org.jdom.Namespace) -> a
+    org.jdom.Element element(java.lang.String) -> d
+    org.jdom.ProcessingInstruction processingInstruction(java.lang.String,java.lang.String) -> a
+    org.jdom.EntityRef entityRef(java.lang.String) -> e
+    org.jdom.EntityRef entityRef(java.lang.String,java.lang.String,java.lang.String) -> b
+    void addContent(org.jdom.Parent,org.jdom.Content) -> a
+    void setAttribute(org.jdom.Element,org.jdom.Attribute) -> a
+org.jdom.DocType -> a.a.j:
+    java.lang.String elementName -> a
+    java.lang.String publicID -> c
+    java.lang.String systemID -> d
+    java.lang.String internalSubset -> e
+    java.lang.String getElementName() -> b
+    java.lang.String getPublicID() -> d
+    java.lang.String getSystemID() -> e
+    java.lang.String getValue() -> a
+    void setInternalSubset(java.lang.String) -> a
+    java.lang.String getInternalSubset() -> f
+    java.lang.String toString() -> toString
+org.jdom.Document -> a.a.k:
+    org.jdom.ContentList content -> a
+    java.lang.String baseURI -> b
+    java.util.HashMap propertyMap -> c
+    boolean hasRootElement() -> a
+    org.jdom.Element getRootElement() -> b
+    org.jdom.Document setRootElement(org.jdom.Element) -> a
+    org.jdom.DocType getDocType() -> d
+    org.jdom.Document addContent(org.jdom.Content) -> a
+    void setBaseURI(java.lang.String) -> a
+    java.lang.String toString() -> toString
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.Object clone() -> clone
+    org.jdom.Parent getParent() -> c
+org.jdom.Element -> a.a.l:
+    java.lang.String name -> a
+    org.jdom.Namespace namespace -> c
+    java.util.List additionalNamespaces -> d
+    org.jdom.AttributeList attributes -> e
+    org.jdom.ContentList content -> f
+    java.lang.String getName() -> b
+    org.jdom.Namespace getNamespace() -> d
+    org.jdom.Element setNamespace(org.jdom.Namespace) -> a
+    org.jdom.Namespace getNamespace(java.lang.String) -> a
+    java.lang.String getQualifiedName() -> e
+    void addNamespaceDeclaration(org.jdom.Namespace) -> b
+    java.util.List getAdditionalNamespaces() -> f
+    java.lang.String getValue() -> a
+    org.jdom.Element setText(java.lang.String) -> b
+    java.util.List getContent() -> g
+    org.jdom.Element addContent(org.jdom.Content) -> a
+    boolean isAncestor(org.jdom.Element) -> a
+    java.util.List getAttributes() -> h
+    java.lang.String getAttributeValue(java.lang.String) -> c
+    java.lang.String getAttributeValue(java.lang.String,org.jdom.Namespace) -> a
+    org.jdom.Element setAttribute(org.jdom.Attribute) -> a
+    boolean removeAttribute(java.lang.String) -> d
+    java.lang.String toString() -> toString
+    java.lang.Object clone() -> clone
+    java.util.List getChildren() -> i
+    java.util.List getChildren(java.lang.String,org.jdom.Namespace) -> b
+    org.jdom.Element getChild(java.lang.String,org.jdom.Namespace) -> c
+org.jdom.EntityRef -> a.a.m:
+    java.lang.String name -> a
+    java.lang.String publicID -> c
+    java.lang.String systemID -> d
+    java.lang.String getName() -> b
+    java.lang.String getValue() -> a
+    java.lang.String toString() -> toString
+org.jdom.IllegalAddException -> a.a.n:
+org.jdom.IllegalDataException -> a.a.o:
+org.jdom.IllegalNameException -> a.a.p:
+org.jdom.IllegalTargetException -> a.a.q:
+org.jdom.JDOMException -> a.a.r:
+    java.lang.Throwable cause -> a
+    java.lang.Throwable initCause(java.lang.Throwable) -> initCause
+    java.lang.String getMessage() -> getMessage
+    void printStackTrace() -> printStackTrace
+    void printStackTrace(java.io.PrintStream) -> printStackTrace
+    void printStackTrace(java.io.PrintWriter) -> printStackTrace
+    java.lang.Throwable getCause() -> getCause
+    java.lang.Throwable getNestedException(java.lang.Throwable) -> a
+    java.lang.Throwable getNestedException(java.lang.Throwable,java.lang.String,java.lang.String) -> a
+    java.lang.Throwable getNestedExceptionFromField(java.lang.Throwable,java.lang.String,java.lang.String) -> b
+org.jdom.JDOMFactory -> a.a.s:
+    org.jdom.Attribute attribute(java.lang.String,java.lang.String,int,org.jdom.Namespace) -> a
+    org.jdom.Attribute attribute(java.lang.String,java.lang.String,int) -> a
+    org.jdom.CDATA cdata(java.lang.String) -> a
+    org.jdom.Text text(java.lang.String) -> b
+    org.jdom.Comment comment(java.lang.String) -> c
+    org.jdom.DocType docType(java.lang.String,java.lang.String,java.lang.String) -> a
+    org.jdom.Document document$3782d51e() -> a
+    org.jdom.Element element(java.lang.String,org.jdom.Namespace) -> a
+    org.jdom.Element element(java.lang.String) -> d
+    org.jdom.ProcessingInstruction processingInstruction(java.lang.String,java.lang.String) -> a
+    org.jdom.EntityRef entityRef(java.lang.String) -> e
+    org.jdom.EntityRef entityRef(java.lang.String,java.lang.String,java.lang.String) -> b
+    void addContent(org.jdom.Parent,org.jdom.Content) -> a
+    void setAttribute(org.jdom.Element,org.jdom.Attribute) -> a
+org.jdom.Namespace -> a.a.t:
+    java.util.HashMap namespaces -> c
+    org.jdom.Namespace NO_NAMESPACE -> a
+    org.jdom.Namespace XML_NAMESPACE -> b
+    java.lang.String prefix -> d
+    java.lang.String uri -> e
+    org.jdom.Namespace getNamespace(java.lang.String,java.lang.String) -> a
+    java.lang.String getPrefix() -> a
+    java.lang.String getURI() -> b
+    boolean equals(java.lang.Object) -> equals
+    java.lang.String toString() -> toString
+    int hashCode() -> hashCode
+org.jdom.NamespaceKey -> a.a.u:
+    java.lang.String prefix -> a
+    java.lang.String uri -> b
+    int hash -> c
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+org.jdom.Parent -> a.a.v:
+    org.jdom.Parent getParent() -> c
+org.jdom.ProcessingInstruction -> a.a.w:
+    java.lang.String target -> a
+    java.lang.String rawData -> c
+    java.util.Map mapData -> d
+    java.lang.String getValue() -> a
+    java.lang.String getTarget() -> b
+    java.lang.String getData() -> d
+    java.util.Map parseData(java.lang.String) -> a
+    int[] extractQuotedString(java.lang.String) -> b
+    java.lang.String toString() -> toString
+    java.lang.Object clone() -> clone
+org.jdom.Text -> a.a.x:
+    java.lang.String value -> a
+    java.lang.String getText() -> b
+    java.lang.String getTextNormalize() -> d
+    java.lang.String normalizeString(java.lang.String) -> b
+    org.jdom.Text setText(java.lang.String) -> a
+    java.lang.String getValue() -> a
+    java.lang.String toString() -> toString
+    java.lang.Object clone() -> clone
+org.jdom.Verifier -> a.a.y:
+    java.lang.String checkCharacterData(java.lang.String) -> a
+    java.lang.String checkNamespaceCollision(org.jdom.Namespace,org.jdom.Namespace) -> a
+    java.lang.String checkNamespaceCollision(org.jdom.Attribute,org.jdom.Element) -> a
+    java.lang.String checkNamespaceCollision(org.jdom.Namespace,org.jdom.Element) -> a
+    java.lang.String checkNamespaceCollision(org.jdom.Namespace,java.util.List) -> a
+    int decodeSurrogatePair(char,char) -> a
+    java.lang.String checkPublicID(java.lang.String) -> b
+    java.lang.String checkSystemLiteral(java.lang.String) -> c
+    java.lang.String checkXMLName(java.lang.String) -> d
+    boolean isHighSurrogate(char) -> a
+    boolean isLowSurrogate(char) -> b
+    boolean isXMLNameCharacter(char) -> c
+    boolean isXMLLetter(char) -> f
+    boolean isXMLDigit(char) -> d
+    boolean isXMLWhitespace(char) -> e
+org.jdom.filter.AbstractFilter -> a.a.a.a:
+org.jdom.filter.ElementFilter -> a.a.a.b:
+    java.lang.String name -> a
+    org.jdom.Namespace namespace -> b
+    boolean matches(java.lang.Object) -> a
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+org.jdom.filter.Filter -> a.a.a.c:
+    boolean matches(java.lang.Object) -> a
+org.jdom.input.BuilderErrorHandler -> a.a.b.a:
+    void warning(org.xml.sax.SAXParseException) -> warning
+    void error(org.xml.sax.SAXParseException) -> error
+    void fatalError(org.xml.sax.SAXParseException) -> fatalError
+org.jdom.input.JAXPParserFactory -> a.a.b.b:
+org.jdom.input.JDOMParseException -> a.a.b.c:
+    org.jdom.Document partialDocument -> a
+org.jdom.input.SAXBuilder -> a.a.b.d:
+    boolean validate -> b
+    boolean expand -> c
+    java.lang.String saxDriverClass -> d
+    org.xml.sax.ErrorHandler saxErrorHandler -> e
+    org.xml.sax.EntityResolver saxEntityResolver -> f
+    org.xml.sax.DTDHandler saxDTDHandler -> g
+    org.xml.sax.XMLFilter saxXMLFilter -> h
+    org.jdom.JDOMFactory factory -> i
+    boolean ignoringWhite -> j
+    boolean ignoringBoundaryWhite -> k
+    java.util.HashMap features -> l
+    java.util.HashMap properties -> m
+    boolean fastReconfigure -> n
+    boolean skipNextLexicalReportingConfig -> o
+    boolean skipNextEntityExpandConfig -> p
+    boolean reuseParser -> q
+    org.xml.sax.XMLReader saxParser -> r
+    java.lang.Class class$java$util$Map -> a
+    org.jdom.Document build(org.xml.sax.InputSource) -> a
+    org.xml.sax.XMLReader createParser() -> a
+    void configureParser(org.xml.sax.XMLReader,org.jdom.input.SAXHandler) -> a
+    void setFeaturesAndProperties(org.xml.sax.XMLReader,boolean) -> a
+    void internalSetFeature(org.xml.sax.XMLReader,java.lang.String,boolean,java.lang.String) -> a
+    org.jdom.Document build(java.io.Reader) -> a
+    java.lang.Class class$(java.lang.String) -> a
+org.jdom.input.SAXHandler -> a.a.b.e:
+    java.util.Map attrNameToTypeMap -> a
+    org.jdom.Document document -> b
+    org.jdom.Element currentElement -> c
+    boolean atRoot -> d
+    boolean inDTD -> e
+    boolean inInternalSubset -> f
+    boolean previousCDATA -> g
+    boolean inCDATA -> h
+    boolean expand -> i
+    boolean suppress -> j
+    int entityDepth -> k
+    java.util.List declaredNamespaces -> l
+    java.lang.StringBuffer internalSubset -> m
+    org.jdom.input.TextBuffer textBuffer -> n
+    java.util.Map externalEntities -> o
+    org.jdom.JDOMFactory factory -> p
+    boolean ignoringWhite -> q
+    boolean ignoringBoundaryWhite -> r
+    org.xml.sax.Locator locator -> s
+    org.jdom.Document getDocument() -> a
+    void setExpandEntities(boolean) -> a
+    void setIgnoringElementContentWhitespace(boolean) -> b
+    void setIgnoringBoundaryWhitespace(boolean) -> c
+    void startDocument() -> startDocument
+    void externalEntityDecl(java.lang.String,java.lang.String,java.lang.String) -> externalEntityDecl
+    void attributeDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> attributeDecl
+    void elementDecl(java.lang.String,java.lang.String) -> elementDecl
+    void internalEntityDecl(java.lang.String,java.lang.String) -> internalEntityDecl
+    void processingInstruction(java.lang.String,java.lang.String) -> processingInstruction
+    void skippedEntity(java.lang.String) -> skippedEntity
+    void startPrefixMapping(java.lang.String,java.lang.String) -> startPrefixMapping
+    void startElement(java.lang.String,java.lang.String,java.lang.String,org.xml.sax.Attributes) -> startElement
+    void characters(char[],int,int) -> characters
+    void ignorableWhitespace(char[],int,int) -> ignorableWhitespace
+    void flushCharacters() -> b
+    void endElement(java.lang.String,java.lang.String,java.lang.String) -> endElement
+    void startDTD(java.lang.String,java.lang.String,java.lang.String) -> startDTD
+    void endDTD() -> endDTD
+    void startEntity(java.lang.String) -> startEntity
+    void endEntity(java.lang.String) -> endEntity
+    void startCDATA() -> startCDATA
+    void endCDATA() -> endCDATA
+    void comment(char[],int,int) -> comment
+    void notationDecl(java.lang.String,java.lang.String,java.lang.String) -> notationDecl
+    void unparsedEntityDecl(java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> unparsedEntityDecl
+    void appendExternalId(java.lang.String,java.lang.String) -> a
+    org.jdom.Element getCurrentElement() -> c
+    void setDocumentLocator(org.xml.sax.Locator) -> setDocumentLocator
+org.jdom.input.TextBuffer -> a.a.b.f:
+    java.lang.String prefixString -> a
+    char[] array -> b
+    int arraySize -> c
+    void append(char[],int,int) -> a
+    void clear() -> a
+    boolean isAllWhitespace() -> b
+    java.lang.String toString() -> toString
+    void ensureCapacity(int) -> a
+org.jdom.output.EscapeStrategy -> a.a.c.a:
+    boolean shouldEscape(char) -> a
+org.jdom.output.Format -> a.a.c.b:
+    java.lang.String indent -> a
+    java.lang.String lineSeparator -> b
+    java.lang.String encoding -> c
+    boolean omitDeclaration -> d
+    boolean omitEncoding -> e
+    boolean expandEmptyElements -> f
+    boolean ignoreTrAXEscapingPIs -> g
+    org.jdom.output.Format$TextMode mode -> h
+    org.jdom.output.EscapeStrategy escapeStrategy -> i
+    java.lang.Class class$java$lang$String -> j
+    org.jdom.output.Format getRawFormat() -> a
+    java.lang.Object clone() -> clone
+    java.lang.Class class$(java.lang.String) -> a
+org.jdom.output.Format$DefaultEscapeStrategy -> a.a.c.c:
+    int bits -> c
+    java.lang.Object encoder -> a
+    java.lang.reflect.Method canEncode -> b
+    org.jdom.output.Format this$0 -> d
+    boolean shouldEscape(char) -> a
+org.jdom.output.Format$TextMode -> a.a.c.d:
+    org.jdom.output.Format$TextMode PRESERVE -> a
+    org.jdom.output.Format$TextMode TRIM -> b
+    org.jdom.output.Format$TextMode NORMALIZE -> c
+    org.jdom.output.Format$TextMode TRIM_FULL_WHITE -> d
+    java.lang.String name -> e
+    java.lang.String toString() -> toString
+org.jdom.output.NamespaceStack -> a.a.c.e:
+    java.util.Stack prefixes -> a
+    java.util.Stack uris -> b
+    void push(org.jdom.Namespace) -> a
+    java.lang.String pop() -> a
+    int size() -> b
+    java.lang.String getURI(java.lang.String) -> a
+    java.lang.String toString() -> toString
+org.jdom.output.XMLOutputter -> a.a.c.f:
+    org.jdom.output.Format userFormat -> c
+    org.jdom.output.Format preserveFormat -> a
+    org.jdom.output.Format currentFormat -> b
+    boolean escapeOutput -> d
+    void output(org.jdom.Element,java.io.Writer) -> a
+    java.lang.String outputString(org.jdom.DocType) -> a
+    java.lang.String outputString(org.jdom.Element) -> a
+    java.lang.String outputString(org.jdom.Comment) -> a
+    java.lang.String outputString(org.jdom.ProcessingInstruction) -> a
+    void printComment(java.io.Writer,org.jdom.Comment) -> a
+    void printProcessingInstruction(java.io.Writer,org.jdom.ProcessingInstruction) -> a
+    void printString(java.io.Writer,java.lang.String) -> a
+    void printElement(java.io.Writer,org.jdom.Element,int,org.jdom.output.XMLOutputter$NamespaceStack) -> a
+    void printTextRange(java.io.Writer,java.util.List,int,int) -> a
+    void printNamespace(java.io.Writer,org.jdom.Namespace,org.jdom.output.XMLOutputter$NamespaceStack) -> a
+    void newline(java.io.Writer) -> a
+    void indent(java.io.Writer,int) -> a
+    int skipLeadingWhite(java.util.List,int) -> a
+    int nextNonText(java.util.List,int) -> b
+    boolean isAllWhitespace(java.lang.Object) -> a
+    java.lang.String escapeAttributeEntities(java.lang.String) -> a
+    java.lang.Object clone() -> clone
+    java.lang.String toString() -> toString
+    void printQualifiedName(java.io.Writer,org.jdom.Element) -> a
+org.jdom.output.XMLOutputter$NamespaceStack -> a.a.c.g:
+    org.jdom.output.XMLOutputter this$0 -> a
